@@ -123,16 +123,18 @@ print(list_to_convert)
 tuple_converted = tuple(list_to_convert)
 print(tuple_converted)
 
+#Corregir desde aquí:
 #Función reverse: invierte el orden de los elementos
-lista = [1, 2, 3, 4, 5]
-lista.reverse()
-print(lista)
+#lista =(1, 2, 3, 4, 5)
+#lista.reverse()
+#print(lista)
 
 #Cuál es la diferencia con función reversed?
 
 #Append. Agrega un elemento a la lista:
-numeros = [1, 2, 3]
-numeros.append(4)
-print(numeros)
+#numeros = [1, 2, 3]
+#numeros.append(4)
+#print(numeros)
 
 #Extend. Extender con varios elementos, lista dentro de listas
+#Hasta acá
