@@ -23,7 +23,7 @@ def notaFinal(examen, proyectos):
     else:
         return 0
 
-n_examen = int(input("Ingrese la calificación del examens: "))
+n_examen = int(input("Ingrese la calificación del examen: "))
 c_proyectos = int(input("Ingrese n° de proyectos completados: "))
 calificacion_final = notaFinal(n_examen, c_proyectos)
 print("Su nota final es:", calificacion_final)
