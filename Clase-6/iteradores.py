@@ -49,3 +49,13 @@ list1 = range (2,3)
 print(list1)
 for number in range(1,10,3):
     print(number)
+
+print("\n-----\n")
+
+#For anidados, p. ej: para la tabla de multiplicar:
+
+for num_tabla in range(1,11):
+    for num_mult in range(1,11):
+        result = num_tabla * num_mult
+        print(f'{num_tabla} x {num_mult} = {result}')
+    print("\n-----\n")
